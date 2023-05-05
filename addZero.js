@@ -13,3 +13,6 @@ for (let i = 0; i < array.length; i++) {  // O(n)
 }
 
 console.log(value)
+
+//big O Runtime = O (n^2)
+//space complexity= O(1)

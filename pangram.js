@@ -3,7 +3,7 @@ function pangram(string) {
     let alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
 
     for (let i = 0; i < alphabet.length; i++) { // O(n)
-        if (strArr.indexOf(alphabet[i]) < 0) {
+        if (strArr.indexOf(alphabet[i]) < 0) { //O(n)
             return false;
         }
     }
@@ -13,5 +13,5 @@ function pangram(string) {
 console.log(pangram("The quick brown fox jumps over the lazy dog!"))
 console.log(pangram("I like cats, but not mice"))
 
-//big O Runtime = O(n)
+//big O Runtime = O(n^2)
 //space complexity= O(1)
